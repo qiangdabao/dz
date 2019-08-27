@@ -1,0 +1,448 @@
+2019-08-15 11:24:29.516 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@327bcebd: startup date [Thu Aug 15 11:24:29 CST 2019]; root of context hierarchy
+2019-08-15 11:24:29.682 INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.4.Final
+2019-08-15 11:24:29.903 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 11:24:29.988 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ef5063c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:24:31.162 INFO  [org.springframework.cloud.config.client.ConfigServicePropertySourceLocator:82] - Fetching config from server at: http://localhost:8888
+2019-08-15 11:24:32.274 WARN  [org.springframework.cloud.config.client.ConfigServicePropertySourceLocator:136] - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/ihp-dz-service/test": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-08-15 11:24:32.275 INFO  [org.springframework.boot.SpringApplication:641] - The following profiles are active: test
+2019-08-15 11:24:32.290 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@408b87aa: startup date [Thu Aug 15 11:24:32 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@327bcebd
+2019-08-15 11:24:32.966 WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.cmcc.healthcare.ihp.service.file]' package. Please check your configuration.
+2019-08-15 11:24:33.010 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate:165] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-15 11:24:33.292 INFO  [org.springframework.cloud.context.scope.GenericScope:263] - BeanFactory id=19b889db-2926-36cf-9aa8-00aba2940c9a
+2019-08-15 11:24:33.311 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 11:24:33.447 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a6e87247] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:24:33.525 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d33660c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:24:33.588 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ef5063c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:24:34.249 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 6008 (http)
+2019-08-15 11:24:34.262 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting service Tomcat
+2019-08-15 11:24:34.263 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-08-15 11:24:34.409 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring embedded WebApplicationContext
+2019-08-15 11:24:34.410 INFO  [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 2120 ms
+2019-08-15 11:24:34.660 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-15 11:24:34.666 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 11:24:34.668 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 11:24:34.669 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-15 11:24:34.669 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 11:24:35.545 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@408b87aa: startup date [Thu Aug 15 11:24:32 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@327bcebd
+2019-08-15 11:24:35.659 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/single],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.listFileByBussId() throws java.lang.Exception
+2019-08-15 11:24:35.665 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/more],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.uploadMoreFiles() throws java.lang.Exception
+2019-08-15 11:24:35.668 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-15 11:24:35.669 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-15 11:24:35.753 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:24:35.753 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:24:35.834 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:24:36.388 WARN  [org.springframework.context.support.AbstractApplicationContext:550] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+2019-08-15 11:24:36.390 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Stopping service Tomcat
+2019-08-15 11:24:36.421 INFO  [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-08-15 11:24:36.428 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+
+2019-08-15 11:28:42.932 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b978d10: startup date [Thu Aug 15 11:28:42 CST 2019]; root of context hierarchy
+2019-08-15 11:28:42.927 INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.4.Final
+2019-08-15 11:28:43.233 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 11:28:43.275 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b400bee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:28:44.671 INFO  [org.springframework.boot.SpringApplication:641] - The following profiles are active: test
+2019-08-15 11:28:44.718 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@109d724c: startup date [Thu Aug 15 11:28:44 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@b978d10
+2019-08-15 11:28:45.347 WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.cmcc.healthcare.ihp.service.file]' package. Please check your configuration.
+2019-08-15 11:28:45.551 INFO  [org.springframework.cloud.context.scope.GenericScope:263] - BeanFactory id=467e3bc1-fb39-347b-822a-166c8f05f8fa
+2019-08-15 11:28:45.564 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 11:28:45.667 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff2608f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:28:45.711 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b400bee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:28:46.309 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 6008 (http)
+2019-08-15 11:28:46.321 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting service Tomcat
+2019-08-15 11:28:46.322 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-08-15 11:28:46.480 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring embedded WebApplicationContext
+2019-08-15 11:28:46.481 INFO  [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 1763 ms
+2019-08-15 11:28:46.682 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-15 11:28:46.687 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 11:28:46.688 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 11:28:46.688 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-15 11:28:46.688 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 11:28:47.043 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@109d724c: startup date [Thu Aug 15 11:28:44 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@b978d10
+2019-08-15 11:28:47.121 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/single],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.listFileByBussId() throws java.lang.Exception
+2019-08-15 11:28:47.124 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/more],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.uploadMoreFiles() throws java.lang.Exception
+2019-08-15 11:28:47.127 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-15 11:28:47.128 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-15 11:28:47.171 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:28:47.171 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:28:47.235 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:28:47.834 WARN  [org.springframework.context.support.AbstractApplicationContext:550] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+2019-08-15 11:28:47.836 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Stopping service Tomcat
+2019-08-15 11:28:47.852 INFO  [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-08-15 11:28:47.858 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+
+2019-08-15 11:29:50.866 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b978d10: startup date [Thu Aug 15 11:29:50 CST 2019]; root of context hierarchy
+2019-08-15 11:29:50.990 INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.4.Final
+2019-08-15 11:29:51.207 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 11:29:51.250 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b6668c50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:29:52.264 INFO  [org.springframework.boot.SpringApplication:641] - The following profiles are active: test
+2019-08-15 11:29:52.277 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59496961: startup date [Thu Aug 15 11:29:52 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@b978d10
+2019-08-15 11:29:52.830 WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.cmcc.healthcare.ihp.service.file]' package. Please check your configuration.
+2019-08-15 11:29:53.044 INFO  [org.springframework.cloud.context.scope.GenericScope:263] - BeanFactory id=467e3bc1-fb39-347b-822a-166c8f05f8fa
+2019-08-15 11:29:53.061 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 11:29:53.167 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9a4c8953] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:29:53.208 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b6668c50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 11:29:53.800 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 6008 (http)
+2019-08-15 11:29:53.812 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting service Tomcat
+2019-08-15 11:29:53.814 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-08-15 11:29:53.988 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring embedded WebApplicationContext
+2019-08-15 11:29:53.988 INFO  [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 1711 ms
+2019-08-15 11:29:54.199 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-15 11:29:54.206 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 11:29:54.207 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 11:29:54.208 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-15 11:29:54.208 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 11:29:54.565 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59496961: startup date [Thu Aug 15 11:29:52 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@b978d10
+2019-08-15 11:29:54.639 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/more],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.uploadMoreFiles() throws java.lang.Exception
+2019-08-15 11:29:54.640 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/single],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.listFileByBussId() throws java.lang.Exception
+2019-08-15 11:29:54.642 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-15 11:29:54.643 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-15 11:29:54.685 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:29:54.685 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:29:54.756 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 11:29:55.572 WARN  [org.springframework.context.support.AbstractApplicationContext:550] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+2019-08-15 11:29:55.574 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Stopping service Tomcat
+2019-08-15 11:29:55.593 INFO  [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-08-15 11:29:55.599 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+
+2019-08-15 12:11:25.736 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7fc4780b: startup date [Thu Aug 15 12:11:25 CST 2019]; root of context hierarchy
+2019-08-15 12:11:25.876 INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.4.Final
+2019-08-15 12:11:26.091 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 12:11:26.137 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b4f1aed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 12:11:27.003 INFO  [org.springframework.boot.SpringApplication:641] - The following profiles are active: test
+2019-08-15 12:11:27.019 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@267517e4: startup date [Thu Aug 15 12:11:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7fc4780b
+2019-08-15 12:11:27.602 INFO  [org.springframework.cloud.context.scope.GenericScope:263] - BeanFactory id=5f0e5453-9025-3330-b3cc-f6f97836a2fd
+2019-08-15 12:11:27.615 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 12:11:27.715 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b4f1aed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 12:11:28.444 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 6008 (http)
+2019-08-15 12:11:28.455 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting service Tomcat
+2019-08-15 12:11:28.457 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-08-15 12:11:28.604 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring embedded WebApplicationContext
+2019-08-15 12:11:28.605 INFO  [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 1586 ms
+2019-08-15 12:11:28.785 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-15 12:11:28.789 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 12:11:28.790 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 12:11:28.790 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-15 12:11:28.790 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 12:11:29.131 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@267517e4: startup date [Thu Aug 15 12:11:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7fc4780b
+2019-08-15 12:11:29.205 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/single],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.listFileByBussId() throws java.lang.Exception
+2019-08-15 12:11:29.206 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/more],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.uploadMoreFiles() throws java.lang.Exception
+2019-08-15 12:11:29.209 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-15 12:11:29.210 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-15 12:11:29.247 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 12:11:29.251 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 12:11:29.310 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 12:11:30.143 WARN  [com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.
+2019-08-15 12:11:30.144 INFO  [com.netflix.config.sources.URLConfigurationSource:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-15 12:11:30.152 WARN  [com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.
+2019-08-15 12:11:30.153 INFO  [com.netflix.config.sources.URLConfigurationSource:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-15 12:11:30.372 INFO  [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2019-08-15 12:11:30.382 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-08-15 12:11:30.384 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-08-15 12:11:30.387 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-08-15 12:11:30.389 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-08-15 12:11:30.404 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-08-15 12:11:30.418 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=267517e4,type=ConfigurationPropertiesRebinder]
+2019-08-15 12:11:30.478 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing ProtocolHandler ["http-nio-6008"]
+2019-08-15 12:11:30.492 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting ProtocolHandler [http-nio-6008]
+2019-08-15 12:11:30.519 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Using a shared selector for servlet write/read
+2019-08-15 12:11:30.545 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 6008 (http)
+2019-08-15 12:11:30.548 INFO  [org.springframework.boot.StartupInfoLogger:57] - Started DzApplication in 6.154 seconds (JVM running for 6.818)
+2019-08-15 12:12:40.278 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-08-15 12:12:40.278 INFO  [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-08-15 12:12:40.330 INFO  [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+2019-08-15 12:12:40.407 INFO  [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-08-15 12:12:40.480 INFO  [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2019-08-15 12:12:40.480 INFO  [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2019-08-15 12:12:40.481 INFO  [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2019-08-15 12:12:40.481 INFO  [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2019-08-15 12:12:40.487 INFO  [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2019-08-15 12:12:40.488 INFO  [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-08-15 15:11:13.530 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2059ae: startup date [Thu Aug 15 15:11:13 CST 2019]; root of context hierarchy
+2019-08-15 15:11:13.703 INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.4.Final
+2019-08-15 15:11:13.964 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 15:11:14.008 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2307fce2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 15:11:14.921 INFO  [org.springframework.boot.SpringApplication:641] - The following profiles are active: test
+2019-08-15 15:11:14.939 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17ae7628: startup date [Thu Aug 15 15:11:14 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2059ae
+2019-08-15 15:11:15.598 INFO  [org.springframework.cloud.context.scope.GenericScope:263] - BeanFactory id=5f0e5453-9025-3330-b3cc-f6f97836a2fd
+2019-08-15 15:11:15.615 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 15:11:15.757 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2307fce2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 15:11:16.465 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 6008 (http)
+2019-08-15 15:11:16.478 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting service Tomcat
+2019-08-15 15:11:16.480 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-08-15 15:11:16.732 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring embedded WebApplicationContext
+2019-08-15 15:11:16.733 INFO  [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 1793 ms
+2019-08-15 15:11:16.997 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-15 15:11:17.002 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 15:11:17.004 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 15:11:17.005 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-15 15:11:17.005 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 15:11:17.400 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17ae7628: startup date [Thu Aug 15 15:11:14 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2059ae
+2019-08-15 15:11:17.481 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/uploadFile],methods=[POST],consumes=[multipart/form-data],produces=[application/json;charset=UTF-8]}" onto public com.alibaba.fastjson.JSONObject com.cmcc.healthcare.ihp.service.file.controller.FileController.uploadFile(org.springframework.web.multipart.MultipartFile,float,int) throws java.lang.Exception
+2019-08-15 15:11:17.483 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/single],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.listFileByBussId() throws java.lang.Exception
+2019-08-15 15:11:17.484 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/more],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.FileController.uploadMoreFiles() throws java.lang.Exception
+2019-08-15 15:11:17.486 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-15 15:11:17.488 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-15 15:11:17.530 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 15:11:17.530 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 15:11:17.591 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 15:11:18.470 WARN  [com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.
+2019-08-15 15:11:18.471 INFO  [com.netflix.config.sources.URLConfigurationSource:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-15 15:11:18.478 WARN  [com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.
+2019-08-15 15:11:18.478 INFO  [com.netflix.config.sources.URLConfigurationSource:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-15 15:11:18.694 INFO  [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2019-08-15 15:11:18.703 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-08-15 15:11:18.705 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-08-15 15:11:18.706 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-08-15 15:11:18.710 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-08-15 15:11:18.721 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-08-15 15:11:18.737 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=17ae7628,type=ConfigurationPropertiesRebinder]
+2019-08-15 15:11:18.805 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing ProtocolHandler ["http-nio-6008"]
+2019-08-15 15:11:18.823 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting ProtocolHandler [http-nio-6008]
+2019-08-15 15:11:18.838 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Using a shared selector for servlet write/read
+2019-08-15 15:11:18.866 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 6008 (http)
+2019-08-15 15:11:18.869 INFO  [org.springframework.boot.StartupInfoLogger:57] - Started DzApplication in 6.632 seconds (JVM running for 7.36)
+2019-08-15 15:13:25.726 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-08-15 15:13:25.727 INFO  [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-08-15 15:13:25.773 INFO  [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2019-08-15 15:13:25.824 WARN  [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver:215] - Request method 'GET' not supported
+2019-08-15 15:13:40.553 WARN  [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver:215] - Request method 'GET' not supported
+2019-08-15 15:17:40.453 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2059ae: startup date [Thu Aug 15 15:17:40 CST 2019]; root of context hierarchy
+2019-08-15 15:17:40.500 INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.4.Final
+2019-08-15 15:17:40.769 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 15:17:40.813 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e6ebc3d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 15:17:41.698 INFO  [org.springframework.boot.SpringApplication:641] - The following profiles are active: test
+2019-08-15 15:17:41.712 INFO  [org.springframework.context.support.AbstractApplicationContext:582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65bcf7c2: startup date [Thu Aug 15 15:17:41 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2059ae
+2019-08-15 15:17:42.396 INFO  [org.springframework.cloud.context.scope.GenericScope:263] - BeanFactory id=6c0fe851-dba1-3de1-b5b2-853606d8d3da
+2019-08-15 15:17:42.410 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-15 15:17:42.509 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e6ebc3d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 15:17:43.171 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 6008 (http)
+2019-08-15 15:17:43.190 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting service Tomcat
+2019-08-15 15:17:43.194 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-08-15 15:17:43.425 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring embedded WebApplicationContext
+2019-08-15 15:17:43.425 INFO  [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 1713 ms
+2019-08-15 15:17:43.661 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-15 15:17:43.666 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-15 15:17:43.668 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-15 15:17:43.669 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-15 15:17:43.671 INFO  [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-15 15:17:44.073 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65bcf7c2: startup date [Thu Aug 15 15:17:41 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2059ae
+2019-08-15 15:17:44.157 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/uploadFile],methods=[POST],consumes=[multipart/form-data],produces=[application/json;charset=UTF-8]}" onto public com.alibaba.fastjson.JSONObject com.cmcc.healthcare.ihp.service.file.controller.FileController.uploadFile(org.springframework.web.multipart.MultipartFile,float,int) throws java.lang.Exception
+2019-08-15 15:17:44.159 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/single],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.TestController.listFileByBussId() throws java.lang.Exception
+2019-08-15 15:17:44.161 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/dz/more],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.cmcc.healthcare.ihp.service.file.controller.TestController.uploadMoreFiles() throws java.lang.Exception
+2019-08-15 15:17:44.163 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-15 15:17:44.164 INFO  [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-15 15:17:44.206 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 15:17:44.208 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 15:17:44.266 INFO  [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-15 15:17:45.267 WARN  [com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.
+2019-08-15 15:17:45.268 INFO  [com.netflix.config.sources.URLConfigurationSource:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-15 15:17:45.278 WARN  [com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.
+2019-08-15 15:17:45.278 INFO  [com.netflix.config.sources.URLConfigurationSource:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-15 15:17:45.509 INFO  [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2019-08-15 15:17:45.517 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-08-15 15:17:45.519 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-08-15 15:17:45.519 INFO  [org.springframework.jmx.export.MBeanExporter:916] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-08-15 15:17:45.521 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-08-15 15:17:45.534 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-08-15 15:17:45.591 INFO  [org.springframework.jmx.export.MBeanExporter:678] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=65bcf7c2,type=ConfigurationPropertiesRebinder]
+2019-08-15 15:17:45.670 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing ProtocolHandler ["http-nio-6008"]
+2019-08-15 15:17:45.684 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Starting ProtocolHandler [http-nio-6008]
+2019-08-15 15:17:45.698 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Using a shared selector for servlet write/read
+2019-08-15 15:17:45.728 INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 6008 (http)
+2019-08-15 15:17:45.732 INFO  [org.springframework.boot.StartupInfoLogger:57] - Started DzApplication in 6.642 seconds (JVM running for 7.363)
+2019-08-15 15:17:56.517 INFO  [org.apache.juli.logging.DirectJDKLog:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-08-15 15:17:56.517 INFO  [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-08-15 15:17:56.556 INFO  [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2019-08-15 15:17:56.624 INFO  [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-08-15 15:17:56.696 INFO  [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2019-08-15 15:17:56.697 INFO  [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2019-08-15 15:17:56.698 INFO  [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2019-08-15 15:17:56.698 INFO  [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2019-08-15 15:17:56.702 INFO  [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2019-08-15 15:17:56.703 INFO  [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-08-15 15:22:28.884 ERROR [org.thymeleaf.TemplateEngine:1085] - [THYMELEAF][http-nio-6008-exec-5] Exception processing template "dz/uploadFile": Error resolving template "dz/uploadFile", template might not exist or might not be accessible by any of the configured Template Resolvers
+2019-08-15 15:22:28.891 ERROR [org.apache.juli.logging.DirectJDKLog:181] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "dz/uploadFile", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "dz/uploadFile", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1282)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-15 15:24:12.705 ERROR [org.thymeleaf.TemplateEngine:1085] - [THYMELEAF][http-nio-6008-exec-9] Exception processing template "dz/uploadFile": Error resolving template "dz/uploadFile", template might not exist or might not be accessible by any of the configured Template Resolvers
+2019-08-15 15:24:12.708 ERROR [org.apache.juli.logging.DirectJDKLog:181] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "dz/uploadFile", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "dz/uploadFile", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1282)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
