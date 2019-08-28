@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>reguser here12345678</title>
+</head>
+
+<script type="text/javascript">
+var cutT = document.getElementById("cutTimer");
+var timer1 = null;
+function start(){
+	
+	document.getElementById("startId").innerHTML = new Date().toLocaleTimeString();
+	
+    var countTime = function(){
+        date = new Date();
+        dateStr = date.toLocaleTimeString();
+        document.getElementById("endId").innerHTML = dateStr;
+    }
+    timer1 = window.setInterval(countTime,1000);       
+}
+
+function stop(){    
+    console.log("timer stop:"+timer1);
+    window.clearInterval(timer1);                    
+}
+</script>
+
+<body>
+    <form enctype="multipart/form-data" method="post" action="http://127.0.0.1:6008/dz/uploadFile">
+        <input type="text"  id="volume" name="volume" value="" /> 
+        <input type="text"  id="rate" name="rate" value="0.055" />                        
+                    文件<input type="file" id="picfile"  name="file"/> 
+        <input type="submit" value="上传"/>
+    </form>
+    
+    <p>点击开始计时！</p>
+    <p id="startId"></p>
+    <p id="endId"></p>
+    <div>
+         <button id="cutTimer" onclick="start()">开始</button>
+         <button id="cutTimer" onclick="stop()">停止</button>
+    </div>
+</body>
+</html>
