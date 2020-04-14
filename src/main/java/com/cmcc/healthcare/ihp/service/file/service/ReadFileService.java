@@ -177,8 +177,9 @@ public class ReadFileService {
   //读取cell单元格的值，如果为日期格式，进行转换
   @SuppressWarnings("deprecation")
   public String getStringCellValue(Cell cell) {
-      if (cell == null)
+      if (cell == null){
           return "";
+      }
 	  if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
 	      return cell.getStringCellValue();
 	  } else {
@@ -189,8 +190,9 @@ public class ReadFileService {
   //读取cell单元格的值，如果为日期格式，进行转换
   @SuppressWarnings("deprecation")
   public String getDateCellValue(Cell cell) {
-	  if (cell == null)
-	      return "";
+	  if (cell == null){
+          return "";
+      }
 	  if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
 	      return cell.getStringCellValue();
 	  } else if (cell.getCellType() == Cell.CELL_TYPE_BOOLEAN) {
@@ -229,8 +231,9 @@ public class ReadFileService {
   // 读取cell单元格的值，如果为日期格式，进行转换
   @SuppressWarnings("deprecation")
   public String getCellValue(Cell cell) {
-	  if (cell == null)
-	      return "";
+	  if (cell == null){
+          return "";
+      }
 	  if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
 	      return cell.getStringCellValue();
 	  } else if (cell.getCellType() == Cell.CELL_TYPE_BOOLEAN) {
@@ -305,5 +308,10 @@ public class ReadFileService {
   	double dzcb =  sc * dz * rate /365;
   	BigDecimal b =  new BigDecimal(dzcb);  
   	return b.setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();  
+  }
+
+
+  public void test() {
+      System.out.println("1234567890");
   }
 }
